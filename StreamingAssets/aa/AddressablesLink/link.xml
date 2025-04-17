@@ -1,5 +1,6 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AttackingEnemy" preserve="all" />
     <type fullname="BillboardCanvas" preserve="all" />
     <type fullname="BossFight" preserve="all" />
     <type fullname="ChasingEnemy" preserve="all" />
@@ -12,6 +13,7 @@
     <type fullname="EnemySword" preserve="all" />
     <type fullname="PetContainer" preserve="all" />
     <type fullname="PetContainerUI" preserve="all" />
+    <type fullname="PlayerSword" preserve="all" />
     <type fullname="StandingEnemy" preserve="all" />
     <type fullname="TeleportDungeon" preserve="all" />
     <type fullname="TeleportLocation" preserve="all" />
@@ -67,7 +69,6 @@
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
-    <type fullname="UnityEngine.OcclusionArea" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
