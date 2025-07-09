@@ -1,19 +1,25 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="AttackingEnemy" preserve="all" />
     <type fullname="BillboardCanvas" preserve="all" />
     <type fullname="BossFight" preserve="all" />
     <type fullname="ChasingEnemy" preserve="all" />
     <type fullname="ChasingEnemySpawner" preserve="all" />
+    <type fullname="ChestAura" preserve="all" />
+    <type fullname="ChestCups" preserve="all" />
+    <type fullname="ChestPower" preserve="all" />
     <type fullname="CullingStopAnimation" preserve="all" />
     <type fullname="Dummy" preserve="all" />
+    <type fullname="DummyManager" preserve="all" />
     <type fullname="Egg" preserve="all" />
     <type fullname="EggCase" preserve="all" />
+    <type fullname="EggShowDropPanel" preserve="all" />
     <type fullname="EnemySpawner" preserve="all" />
     <type fullname="EnemySword" preserve="all" />
+    <type fullname="GetRewardVideo" preserve="all" />
     <type fullname="PetContainer" preserve="all" />
     <type fullname="PetContainerUI" preserve="all" />
     <type fullname="PlayerSword" preserve="all" />
+    <type fullname="ShopDatabase" preserve="all" />
     <type fullname="StandingEnemy" preserve="all" />
     <type fullname="TeleportDungeon" preserve="all" />
     <type fullname="TeleportLocation" preserve="all" />
@@ -22,6 +28,7 @@
     <type fullname="Pet" preserve="nothing" serialized="true" />
     <type fullname="PetType" preserve="nothing" serialized="true" />
     <type fullname="Rarity" preserve="nothing" serialized="true" />
+    <type fullname="ShopItem" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
@@ -68,7 +75,9 @@
     <type fullname="UnityEngine.Mesh" preserve="all" />
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.OcclusionArea" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
@@ -95,10 +104,9 @@
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
-    <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
     <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
-    <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
     <type fullname="UnityEngine.UI.Outline" preserve="all" />
     <type fullname="UnityEngine.UI.Slider" preserve="all" />
     <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
